@@ -153,12 +153,12 @@ Todo el material probatorio recabado durante la auditoría se presenta a continu
 
 ### Anexo A: Evidencia del Hallazgo N° 1 (Configuración del Modelo en Código)
 *Captura del código fuente (`main.py`) evidenciando la parametrización dura del modelo `smollm:360m` para cumplir con las exigencias de la prueba.*
-![Evidencia de Código smollm](evidencias/cambiamodelocorrecto.PNG)
+![Evidencia de Código smollm](evidencias/cambiamodelocorrecto.png)
 
 ### Anexo B: Evidencia del Hallazgo N° 2 y N° 3 (Errores de Despliegue y Parseo)
 *Captura de la interfaz gráfica del usuario final arrojando el mensaje genérico de error ("Lo siento, ha ocurrido un error") provocado inicialmente por la falta de la tabla de tickets y fallas de validación de JSON del modelo.*
-![Evidencia de Error en API](evidencias/funcionaelprograma.PNG)
-![Evidencia de Error en API](evidencias/funcionamientomodelo.PNG)
+![Evidencia de Error en API](evidencias/funcionaelprograma.png)
+![Evidencia de Error en API](evidencias/funcionamientomodelo.png)
 
 ### Anexo C: Evidencia de Subsanación y Despliegue Exitoso
 *Registros de la terminal de comandos (CMD) demostrando la compilación exitosa de las imágenes de Docker y la ejecución manual del script `database_setup.py` para corregir la persistencia.*
@@ -166,5 +166,5 @@ Todo el material probatorio recabado durante la auditoría se presenta a continu
 
 ### Anexo D: Evidencia del Hallazgo N° 4 (Alucinaciones de la Inteligencia Artificial)
 *Demostración en el frontend del bucle repetitivo y la falta de asertividad del modelo, confirmando su incapacidad para procesar el contexto RAG de manera coherente.*
-![Evidencia de Alucinacion](evidencias/resultado1.PNG)
-![Evidencia de Alucinacion](evidencias/resultado1parte2.PNG)
+![Evidencia de Alucinacion](evidencias/resultado1.png)
+![Evidencia de Alucinacion](evidencias/resultado1parte2.png)
